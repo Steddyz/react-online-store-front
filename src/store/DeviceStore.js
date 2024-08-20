@@ -11,6 +11,8 @@ export default class DeviceStore {
     this._brands = [
       { id: 1, brand: "Samsung" },
       { id: 2, brand: "Apple" },
+      { id: 3, brand: "BenQ" },
+      { id: 4, brand: "Logitech" },
     ];
     this._devices = [
       {
@@ -35,6 +37,8 @@ export default class DeviceStore {
         img: `https://www.apple.com/newsroom/images/tile-images/Apple_iphone_11-rosette-family-lineup-091019.jpg.news_app_ed.jpg`,
       },
     ];
+    this._selectedType = {};
+    this._selectedBrand = {};
 
     makeAutoObservable(this);
   }
@@ -49,6 +53,14 @@ export default class DeviceStore {
   getDevices(devices) {
     this._devices = devices;
   }
+  getSelectedType(type) {
+    this._selectedType = type;
+  }
+
+  getSelectedBrand(brand) {
+    this._selectedBrand = brand;
+  }
+
   get types() {
     return this._types;
   }
@@ -57,5 +69,11 @@ export default class DeviceStore {
   }
   get devices() {
     return this._devices;
+  }
+  get selectedType() {
+    return this._selectedType;
+  }
+  get selectedBrand() {
+    return this._selectedBrand;
   }
 }
