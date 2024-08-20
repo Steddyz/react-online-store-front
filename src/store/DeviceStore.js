@@ -20,21 +20,35 @@ export default class DeviceStore {
         name: "Iphone 11",
         price: 15000,
         rating: 4,
-        img: `https://www.apple.com/newsroom/images/tile-images/Apple_iphone_11-rosette-family-lineup-091019.jpg.news_app_ed.jpg`,
+        img: `https://imgholder.ru/400x300/8493a8/adb9ca&text=IMAGE+HOLDER&font=kelson`,
       },
       {
         id: 2,
         name: "Iphone 11 Pro",
         price: 25000,
         rating: 5,
-        img: `https://www.apple.com/newsroom/images/tile-images/Apple_iphone_11-rosette-family-lineup-091019.jpg.news_app_ed.jpg`,
+        img: `https://imgholder.ru/400x300/8493a8/adb9ca&text=IMAGE+HOLDER&font=kelson`,
       },
       {
         id: 3,
         name: "Iphone 11 Pro Max",
         price: 50000,
         rating: 5,
-        img: `https://www.apple.com/newsroom/images/tile-images/Apple_iphone_11-rosette-family-lineup-091019.jpg.news_app_ed.jpg`,
+        img: `https://imgholder.ru/400x300/8493a8/adb9ca&text=IMAGE+HOLDER&font=kelson`,
+      },
+      {
+        id: 4,
+        name: "Iphone 11",
+        price: 15000,
+        rating: 4,
+        img: `https://imgholder.ru/400x300/8493a8/adb9ca&text=IMAGE+HOLDER&font=kelson`,
+      },
+      {
+        id: 5,
+        name: "Iphone 11",
+        price: 15000,
+        rating: 4,
+        img: `https://imgholder.ru/400x300/8493a8/adb9ca&text=IMAGE+HOLDER&font=kelson`,
       },
     ];
     this._selectedType = {};
